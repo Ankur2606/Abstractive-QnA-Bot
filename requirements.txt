@@ -1,7 +1,8 @@
-datasets==latest
-pinecone-client==latest
-sentence-transformers==latest
-torch==latest
+datasets
+pinecone-client
+sentence-transformers
+torch
+transformers
 sacrebleu 
 rouge_score 
 py7zr

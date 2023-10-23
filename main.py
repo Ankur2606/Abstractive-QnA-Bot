@@ -64,7 +64,7 @@ for i in tqdm(range(0, len(df), batch_size)):
     # upsert/insert these records to pinecone
     _ = index.upsert(vectors=to_upsert)
 
-logger.info(f"check that we have all vectors in index : \n {index.describe_index_stats()}") 4
+logger.info(f"check that we have all vectors in index : \n {index.describe_index_stats()}")
 
 
 # load bart tokenizer and model from huggingface
